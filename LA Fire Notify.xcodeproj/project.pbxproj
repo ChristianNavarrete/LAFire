@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		645329CB2D33599B00E73819 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 645329B22D33599A00E73819 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 645329B92D33599A00E73819;
+			remoteInfo = "LA Fire Notify";
+		};
+		645329D52D33599B00E73819 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 645329B22D33599A00E73819 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 645329B92D33599A00E73819;
+			remoteInfo = "LA Fire Notify";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		645329BA2D33599A00E73819 /* LA Fire Notify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LA Fire Notify.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		645329CA2D33599B00E73819 /* LA Fire NotifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LA Fire NotifyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		645329D42D33599B00E73819 /* LA Fire NotifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LA Fire NotifyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		64532A102D33727400E73819 /* Exceptions for "LA Fire NotifyUITests" folder in "LA Fire Notify" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				icon.png,
+			);
+			target = 645329B92D33599A00E73819 /* LA Fire Notify */;
+		};
+		64532A112D33727400E73819 /* Exceptions for "LA Fire NotifyUITests" folder in "LA Fire NotifyUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				icon.png,
+			);
+			target = 645329D32D33599B00E73819 /* LA Fire NotifyUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		645329BC2D33599A00E73819 /* LA Fire Notify */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "LA Fire Notify";
+			sourceTree = "<group>";
+		};
+		645329CD2D33599B00E73819 /* LA Fire NotifyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "LA Fire NotifyTests";
+			sourceTree = "<group>";
+		};
+		645329D72D33599B00E73819 /* LA Fire NotifyUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				64532A102D33727400E73819 /* Exceptions for "LA Fire NotifyUITests" folder in "LA Fire Notify" target */,
+				64532A112D33727400E73819 /* Exceptions for "LA Fire NotifyUITests" folder in "LA Fire NotifyUITests" target */,
+			);
+			path = "LA Fire NotifyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		645329B72D33599A00E73819 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		645329C72D33599B00E73819 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		645329D12D33599B00E73819 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		645329B12D33599A00E73819 = {
+			isa = PBXGroup;
+			children = (
+				645329BC2D33599A00E73819 /* LA Fire Notify */,
+				645329CD2D33599B00E73819 /* LA Fire NotifyTests */,
+				645329D72D33599B00E73819 /* LA Fire NotifyUITests */,
+				645329BB2D33599A00E73819 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		645329BB2D33599A00E73819 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				645329BA2D33599A00E73819 /* LA Fire Notify.app */,
+				645329CA2D33599B00E73819 /* LA Fire NotifyTests.xctest */,
+				645329D42D33599B00E73819 /* LA Fire NotifyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		645329B92D33599A00E73819 /* LA Fire Notify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 645329DE2D33599B00E73819 /* Build configuration list for PBXNativeTarget "LA Fire Notify" */;
+			buildPhases = (
+				645329B62D33599A00E73819 /* Sources */,
+				645329B72D33599A00E73819 /* Frameworks */,
+				645329B82D33599A00E73819 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				645329BC2D33599A00E73819 /* LA Fire Notify */,
+			);
+			name = "LA Fire Notify";
+			packageProductDependencies = (
+			);
+			productName = "LA Fire Notify";
+			productReference = 645329BA2D33599A00E73819 /* LA Fire Notify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		645329C92D33599B00E73819 /* LA Fire NotifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 645329E12D33599B00E73819 /* Build configuration list for PBXNativeTarget "LA Fire NotifyTests" */;
+			buildPhases = (
+				645329C62D33599B00E73819 /* Sources */,
+				645329C72D33599B00E73819 /* Frameworks */,
+				645329C82D33599B00E73819 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				645329CC2D33599B00E73819 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				645329CD2D33599B00E73819 /* LA Fire NotifyTests */,
+			);
+			name = "LA Fire NotifyTests";
+			packageProductDependencies = (
+			);
+			productName = "LA Fire NotifyTests";
+			productReference = 645329CA2D33599B00E73819 /* LA Fire NotifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		645329D32D33599B00E73819 /* LA Fire NotifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 645329E42D33599B00E73819 /* Build configuration list for PBXNativeTarget "LA Fire NotifyUITests" */;
+			buildPhases = (
+				645329D02D33599B00E73819 /* Sources */,
+				645329D12D33599B00E73819 /* Frameworks */,
+				645329D22D33599B00E73819 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				645329D62D33599B00E73819 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				645329D72D33599B00E73819 /* LA Fire NotifyUITests */,
+			);
+			name = "LA Fire NotifyUITests";
+			packageProductDependencies = (
+			);
+			productName = "LA Fire NotifyUITests";
+			productReference = 645329D42D33599B00E73819 /* LA Fire NotifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		645329B22D33599A00E73819 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					645329B92D33599A00E73819 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					645329C92D33599B00E73819 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 645329B92D33599A00E73819;
+					};
+					645329D32D33599B00E73819 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 645329B92D33599A00E73819;
+					};
+				};
+			};
+			buildConfigurationList = 645329B52D33599A00E73819 /* Build configuration list for PBXProject "LA Fire Notify" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 645329B12D33599A00E73819;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 645329BB2D33599A00E73819 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				645329B92D33599A00E73819 /* LA Fire Notify */,
+				645329C92D33599B00E73819 /* LA Fire NotifyTests */,
+				645329D32D33599B00E73819 /* LA Fire NotifyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		645329B82D33599A00E73819 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		645329C82D33599B00E73819 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		645329D22D33599B00E73819 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		645329B62D33599A00E73819 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		645329C62D33599B00E73819 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		645329D02D33599B00E73819 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		645329CC2D33599B00E73819 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 645329B92D33599A00E73819 /* LA Fire Notify */;
+			targetProxy = 645329CB2D33599B00E73819 /* PBXContainerItemProxy */;
+		};
+		645329D62D33599B00E73819 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 645329B92D33599A00E73819 /* LA Fire Notify */;
+			targetProxy = 645329D52D33599B00E73819 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		645329DC2D33599B00E73819 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		645329DD2D33599B00E73819 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		645329DF2D33599B00E73819 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LA Fire Notify/Preview Content\"";
+				DEVELOPMENT_TEAM = 7JPV3NX8Z6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Allowing background location helps us alert you about nearby fires and emergency evacuation notices.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is used to show nearby emergency resources, evacuation centers, and fire activity";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pairProgram.LA-Fire-Notify";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		645329E02D33599B00E73819 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LA Fire Notify/Preview Content\"";
+				DEVELOPMENT_TEAM = 7JPV3NX8Z6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Allowing background location helps us alert you about nearby fires and emergency evacuation notices.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is used to show nearby emergency resources, evacuation centers, and fire activity";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pairProgram.LA-Fire-Notify";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		645329E22D33599B00E73819 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7JPV3NX8Z6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pairProgram.LA-Fire-NotifyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LA Fire Notify.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LA Fire Notify";
+			};
+			name = Debug;
+		};
+		645329E32D33599B00E73819 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7JPV3NX8Z6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pairProgram.LA-Fire-NotifyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LA Fire Notify.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LA Fire Notify";
+			};
+			name = Release;
+		};
+		645329E52D33599B00E73819 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7JPV3NX8Z6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pairProgram.LA-Fire-NotifyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LA Fire Notify";
+			};
+			name = Debug;
+		};
+		645329E62D33599B00E73819 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7JPV3NX8Z6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pairProgram.LA-Fire-NotifyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LA Fire Notify";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		645329B52D33599A00E73819 /* Build configuration list for PBXProject "LA Fire Notify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				645329DC2D33599B00E73819 /* Debug */,
+				645329DD2D33599B00E73819 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		645329DE2D33599B00E73819 /* Build configuration list for PBXNativeTarget "LA Fire Notify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				645329DF2D33599B00E73819 /* Debug */,
+				645329E02D33599B00E73819 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		645329E12D33599B00E73819 /* Build configuration list for PBXNativeTarget "LA Fire NotifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				645329E22D33599B00E73819 /* Debug */,
+				645329E32D33599B00E73819 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		645329E42D33599B00E73819 /* Build configuration list for PBXNativeTarget "LA Fire NotifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				645329E52D33599B00E73819 /* Debug */,
+				645329E62D33599B00E73819 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 645329B22D33599A00E73819 /* Project object */;
+}
